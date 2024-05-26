@@ -28,7 +28,7 @@ const HomePage = async () => {
         <div>
           <Image
             src={LandingImg}
-            alt="lainding svg"
+            alt="landing svg"
             className="hidden lg:block"
           />
         </div>
