@@ -38,24 +38,25 @@ function CreateJobForm() {
   }
 
   return (
-    <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-        <FormField
-          control={form.control}
-          name="username"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Username</FormLabel>
-              <FormControl>
-                <Input placeholder="shadcn" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-        <Button type="submit">Submit</Button>
-      </form>
-    </Form>
+    // <Form {...form}>
+    //   <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+    //     <FormField
+    //       control={form.control}
+    //       name="username"
+    //       render={({ field }) => (
+    //         <FormItem>
+    //           <FormLabel>Username</FormLabel>
+    //           <FormControl>
+    //             <Input placeholder="shadcn" {...field} />
+    //           </FormControl>
+    //           <FormMessage />
+    //         </FormItem>
+    //       )}
+    //     />
+    //     <Button type="submit">Submit</Button>
+    //   </form>
+    // </Form>
+    <h1>jobForm</h1>
   );
 }
 export default CreateJobForm;
